@@ -10,7 +10,13 @@ namespace AtividadetTriangulo
     {
         static void Main(string[] args)
         {
-
+            Triangulo triangulo;
+            triangulo = new Triangulo();
+            Console.WriteLine("Informe o primeiro valor");
+            triangulo.Ld1 = Console.ReadLine();
+            triangulo.Ld2 = 
+            triangulo.ExibeDados();
+            Console.ReadKey();
 
         }
     }
